@@ -49,6 +49,7 @@ function login() {
     alert("Iltimos, yana bir bor urinib ko'ring.");
   }
 }
+
 let count = 1;
 while (count <= 3) {
   let email = prompt("Emailni kiriting:");
@@ -61,4 +62,3 @@ while (count <= 3) {
   }
   count++;
 }
-email;
